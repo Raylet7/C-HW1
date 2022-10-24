@@ -2,13 +2,13 @@
 //5 -> 2, 4
 //8 -> 2, 4, 6, 8
 Console.WriteLine("Введите число: ");
-int N = int.Parse(Console.ReadLine()!);
-int I = 1;
-while(I <= N)
+int n = int.Parse(Console.ReadLine()!);
+int i = 1;
+while(i <= n)
 {
-    if(I % 2 == 0)
+    if(i % 2 == 0)
     {
-        Console.Write(I + " ");
+        Console.Write(i + " ");
     }
-    I++;
+    i++;
 }
